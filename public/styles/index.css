@@ -1,0 +1,56 @@
+/* NavBar style */
+#navbar {
+	background-color: black;
+	position: fixed;
+	width: 100%;
+	display: block;
+	transition: top 0.3s;
+}
+
+/* NavBar element style */
+#navbar a {
+	float: left;
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 15px;
+	text-decoration: none;
+	font-size: 17px;
+}
+
+/* NavBar On Hover Effects */
+#navbar a:hover {
+	background-color: #ddd;
+	color: black;
+}
+
+/* Right side NavBar CSS */
+#navbar-right {
+	float: right;
+}
+
+/* Main Body CSS */
+body {
+	text-align: center;
+	margin: 0;
+}
+
+/* Info Card CSS */
+#info-card {
+	padding-top: 20%;
+	background-color: blue;
+	width: 100%;
+	text-align: center;
+}
+
+/* Info Card Name CSS */
+#name-container {
+	text-align: center;
+}
+
+/* First and Last Name CSS */
+h1 {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}

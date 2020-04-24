@@ -1,0 +1,23 @@
+{
+  "name": "nodetemplate",
+  "version": "1.0.0",
+  "description": "Template for Node applications",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SchereChaSiu/NodeTemplate.git"
+  },
+  "author": "Gajan Sivanesan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SchereChaSiu/NodeTemplate/issues"
+  },
+  "homepage": "https://github.com/SchereChaSiu/NodeTemplate#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-session": "^1.17.1"
+  }
+}
