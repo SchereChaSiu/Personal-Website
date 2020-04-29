@@ -13,7 +13,7 @@ app.get('/', (request,response) => {
     response.sendFile(__dirname + '/public/pages/index.html');
 });
 
-app.set('port', 8000);
+app.set('port', 3000);
 
 app.listen(app.get('port'), () => {
     console.log('Node.js/Express is listening on port ' + app.get('port'));

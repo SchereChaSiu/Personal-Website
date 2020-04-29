@@ -1,3 +1,22 @@
+/* HTML CSS */
+html {
+	height: 100%;
+}
+
+/* Main Body CSS */
+body {
+	margin: 0;
+	height: 100%;
+}
+
+/* First and Last Name CSS */
+h1 {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+/* ID CSS */
 /* NavBar style */
 #navbar {
 	background-color: black;
@@ -18,39 +37,57 @@
 	font-size: 17px;
 }
 
+/* Right side NavBar CSS */
+#navbar-right {
+	float: right;
+}
+
+/* Info Card CSS */
+#info-card {
+	background-color: blue;
+	text-align: center;
+}
+
+/* Info Card Name CSS */
+#name {
+	padding-top: 25%;
+	text-align: center;
+}
+
+/* Bio CSS */
+#bio {
+	padding-left: 15%;
+	padding-right: 15%;
+}
+
+/* Currently Learning CSS */
+#currently-learning {
+	padding-top: 50px;
+	padding-left: 15%;
+}
+
+/* Current Prjects CSS */
+#current-projects {
+	padding-left: 15%;
+	padding-right: 15%;
+	list-style-type: none;
+}
+
+/* Class CSS */
+/* Card Class CSS */
+.card {
+	width: 100%;
+	height: 100%;
+}
+
+/* On Hover CSS */
 /* NavBar On Hover Effects */
 #navbar a:hover {
 	background-color: #ddd;
 	color: black;
 }
 
-/* Right side NavBar CSS */
-#navbar-right {
-	float: right;
-}
-
-/* Main Body CSS */
-body {
-	text-align: center;
-	margin: 0;
-}
-
-/* Info Card CSS */
-#info-card {
-	padding-top: 20%;
-	background-color: blue;
-	width: 100%;
-	text-align: center;
-}
-
-/* Info Card Name CSS */
-#name-container {
-	text-align: center;
-}
-
-/* First and Last Name CSS */
-h1 {
-	margin: 0;
-	padding: 0;
-	text-align: center;
+tr:hover {
+	background-color: #ddd;
+	color: black;
 }
